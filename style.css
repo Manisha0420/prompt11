@@ -1,0 +1,351 @@
+*{
+     padding: 0%;
+     margin: 0%;
+     box-sizing: border-box;
+}
+html,body{
+     width: 100%;
+     height: 100%;
+}
+.top{
+     background:linear-gradient( to right , #CDC0AD,#B09E86);
+     
+}
+.top>h1{
+     text-align: center;
+     padding: 2rem;
+     font-size:4rem;
+     font-weight: 800;
+     line-height: 1;
+     
+}
+.top>h5{
+     text-align: center;
+     font-size: 1.2rem;
+     font-weight: 600;
+     
+}
+.container{
+     width: 100vw;
+     height: 48vh;
+     display: flex;
+     background:linear-gradient( to right , #CDC0AD,#B09E86);
+     padding: 3rem;
+}
+.container > .first{
+     width: 100vw;
+     height: 40vh;  
+     display: flex;
+     gap: 1rem;
+}
+.container > .first>.left{
+     width: 30vw;
+     height: 40vh;
+     background-color: #EFEBDF;
+     padding: 2rem;
+     box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.637);
+}
+.container > .first>.left>nav{
+     display: flex;
+     justify-content: space-between;
+    
+}
+.container > .first>.left> h1{
+     font-size: 3rem;
+     text-align: left;
+}
+.container > .first>.left >p{
+     font-size: 1rem;
+     font-weight: 400;
+     padding-bottom: 2rem;
+}
+.container > .first>.middle{
+     width: 30vw;
+     height:40vh;
+     background-color: #A6907F;
+     display: flex;
+     box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.637);
+
+
+
+}
+.container > .first>.middle >img{
+     width: 11vw;
+     height: 40vh;
+     object-fit: cover;
+}
+.container > .first>.middle >h1{
+     width:5vw;
+     height: 10vh;
+     margin-top: 7rem;
+     rotate: -90deg;
+     font-size: 2rem;
+     text-align: center;
+}
+.container > .first>.middle >div {
+     margin: 2.5rem;
+     font-size: 1rem;
+
+}
+
+.container > .first>.right{
+     width: 30vw;
+     height: 40vh;
+     background-color: #755E4A;
+     padding: 2rem 5rem;
+     display: flex;
+     box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.637);
+     
+     
+
+}
+.container > .first>.right >h1{
+     font-size: 9rem;
+     text-align: left;
+
+}
+.container > .first>.right > span{
+     padding: 4rem 0rem;
+     font-size: 2.5rem;
+     font-weight: 700;
+     
+}
+
+.container > .second{
+     width: 100vw;
+     height: 40vh;  
+     display: flex;
+     gap: 1rem;
+}
+.container > .second>.left{
+     width: 30vw;
+     height: 40vh;
+     padding: 2rem;
+     background-color: #EFEBDF;
+
+     box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.637);
+}
+.container > .second>.left>.top{
+     display: flex;
+     background-color: #EFEBDF;
+     gap: 0%;
+     /* justify-content: space-between; */
+    
+}
+.container > .second>.left> .top >div{
+     width: 55vw;
+     background-color:#EFEBDF ;
+}
+.container > .second>.left> .top >div>h1{
+     font-size: 3.5rem;
+}
+.container > .second>.left >.top >div >p{
+     width:10vw;
+     font-size: 0.5rem;
+     font-weight: 400;
+     padding-bottom: 1rem;
+}
+.container > .second>.left >.bottom >.color{
+     width: 24vw;   
+     display: flex;
+     justify-content: space-between;  
+     gap: 3%;  
+     align-items: center;
+}
+.container > .second>.left >.bottom >.color > .box1{
+     border: 1px solid black;
+}
+.container > .second>.left >.bottom >.color > .box1>.up{
+     border: 1px solid black;
+     height: 4vh;
+     background-color:#755E4A;
+}
+.container > .second>.left >.bottom >.color > .box1 >.down{
+     border: 1px solid black;
+     height: 10vh;
+}
+
+
+.container > .second>.left >.bottom >.color > .box2{
+     border: 1px solid black;
+}
+.container > .second>.left >.bottom >.color > .box2>.up{
+     border: 1px solid black;
+     height: 4vh;
+     background-color: #A6907F;
+}
+.container > .second>.left >.bottom >.color > .box2 >.down{
+     border: 1px solid black;
+     height: 10vh;
+}
+
+.container > .second>.left >.bottom >.color > .box3{
+     border: 1px solid black;
+}
+.container > .second>.left >.bottom >.color > .box3>.up{
+     border: 1px solid black;
+     background-color: #B09E86;
+     height: 4vh;
+}
+.container > .second>.left >.bottom >.color > .box3>.down{
+     border: 1px solid black;
+     height: 10vh;
+}
+.container > .second>.left >.bottom >.color > .box4{
+     border: 1px solid black;
+}
+.container > .second>.left >.bottom >.color > .box4>.up{
+     border: 1px solid black;
+     background-color: #CDC0AD;
+     height: 4vh;
+}
+.container > .second>.left >.bottom >.color > .box4 >.down{
+     border: 1px solid black;
+     height: 10vh;
+}
+.container > .second>.middle{
+     width: 30vw;
+     height:40vh;
+     background-color: #A6907F;
+     display: flex;
+     box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.637);
+
+}
+.container > .second>.middle >h1{
+     width:5vw;
+     height: 10vh;
+     padding: 1rem;
+     font-size: 2rem;
+     text-align: center;
+}
+.container > .second>.middle >div {
+     width: 20vw;
+     height: 30vh;
+     margin: 3rem 2.5rem;
+     font-size: 1rem;
+     background-color: white;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 1rem;
+}
+.container > .second>.middle >.img>div>div> img{
+     width: 9.1vw;
+}
+
+.container > .second>.right{
+     width: 30vw;
+     height: 40vh;
+     background-color: black;
+     color:#CDC0AD;
+     padding: 2rem 5rem;
+     display: flex;
+     justify-content: space-between;
+     box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.637);
+
+}
+.container > .second>.right >h1{
+     font-size: 9rem;
+     font-weight: 900;
+     text-align: left;
+
+}
+.container > .second>.right > span{
+     padding: 4rem 1rem;
+     font-size: 2.5rem;
+     font-weight: 700;
+     
+}
+
+.container > .third{
+     width: 100vw;
+     height: 40vh;  
+     display: flex;
+     gap: 1rem;
+}
+
+.container>.third >.left{
+     width: 30vw;
+     height: 40vh;
+     background-color: #755E4A;
+     padding: 2rem 5rem;
+     display: flex;
+     justify-content: space-between;
+     box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.637);
+}
+.container > .third>.left >h1{
+     font-size: 10rem;
+     text-align: left;
+     font-weight: 900;
+     line-height: 1;
+
+}
+.container > .third>.left > span{
+     padding: 4rem 0rem;
+     font-size: 2.5rem;
+     font-weight: 700;
+     
+}
+.container>.third >.middle{
+     width: 30vw;
+     height: 40vh;
+     background-color:#EFEBDF;
+     padding: 1rem 1rem;
+     display: flex;
+     justify-content: space-between;
+     box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.637);
+     
+}
+.container>.third >.middle >.left{
+     width: 50vw;
+     padding: 1rem;
+}
+.container>.third >.middle >.left> h4{
+     font-size: 1.5rem;
+}
+.container>.third >.middle >.left> p{
+     font-size: 0.8rem;
+}
+.container>.third >.middle >.div > h1{
+     font-size: 3rem;
+     margin-top: 1rem;
+}
+
+.container>.third >.middle >.right> img{
+     width: 14vw;
+     height: 36vh;
+}
+
+.container > .third>.right{
+     width: 30vw;
+     height: 40vh;
+     color:black;
+     display: flex;
+     box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.637);
+
+}
+.container > .third>.right >.left{
+     width: 30vw;
+     background-color:#EFEBDF;
+     padding: 2rem;
+}
+.container > .third>.right >.left>h4{
+     font-size: 1.2rem;
+}
+.container > .third>.right >.left>p{
+     font-size: 0.5rem;
+     margin:1rem 0rem;
+}
+.container > .third>.right >.side{
+     width: 30vw;
+     background-color:#A6907F;
+     padding: 4rem;
+}
+.container > .third>.right >.side>h1{
+     font-size: 5rem;
+     
+}
+.container > .third>.right >.side>h2{
+     font-size: 2rem;
+     text-align: center;
+}
